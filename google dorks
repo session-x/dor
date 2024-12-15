@@ -1,0 +1,94 @@
+# ADMIN PORTALS
+site:domain.com inurl:admin
+site:domain.com inurl:administrator
+site:domain.com inurl:login
+site:domain.com inurl:adminpanel
+site:domain.com intitle:"admin login"
+site:domain.com intitle:"control panel"
+site:domain.com intitle:"admin dashboard"
+site:domain.com inurl:/admin/login
+site:domain.com inurl:/admin/portal
+site:domain.com "admin area"
+site:domain.com "admin console"
+site:domain.com "restricted access"
+
+# CREDENTIALS
+site:domain.com ext:txt "username" "password"
+site:domain.com ext:log "username" "password"
+site:domain.com ext:env "DB_USERNAME" "DB_PASSWORD"
+site:domain.com ext:sql "INSERT INTO users"
+site:domain.com ext:json "credentials"
+site:domain.com ext:conf "password"
+site:domain.com "default credentials"
+site:domain.com "login credentials"
+site:domain.com "default username" "default password"
+site:domain.com "site password"
+site:domain.com ext:ini "password"
+
+# BACKUP FILES
+site:domain.com ext:bak
+site:domain.com ext:old
+site:domain.com ext:backup
+site:domain.com ext:zip
+site:domain.com ext:tar
+site:domain.com ext:gz
+site:domain.com ext:rar
+site:domain.com intitle:index.of "backup"
+site:domain.com intitle:index.of "bak"
+site:domain.com intitle:index.of "old"
+
+# GIT CONFIGURATION & REPOSITORIES
+site:domain.com inurl:/.git
+site:domain.com inurl:/.git/config
+site:domain.com inurl:/.gitignore
+site:domain.com intitle:index.of ".git"
+site:domain.com intitle:index.of ".git/config"
+site:domain.com inurl:/repo/.git
+site:domain.com inurl:/src/.git
+
+# PASSWORD FILES
+site:domain.com ext:txt "password"
+site:domain.com ext:log "password"
+site:domain.com ext:csv "password"
+site:domain.com ext:json "password"
+site:domain.com ext:xml "password"
+site:domain.com intitle:index.of "passwords.txt"
+site:domain.com intitle:index.of "credentials.txt"
+site:domain.com intitle:index.of "passwd"
+site:domain.com "forgot password" "email"
+site:domain.com "password reset"
+site:domain.com "secure password"
+
+# DATABASE FILES
+site:domain.com ext:sql "select * from"
+site:domain.com ext:db
+site:domain.com ext:dbf
+site:domain.com ext:mdb
+site:domain.com ext:sqlite
+site:domain.com intitle:index.of "database"
+site:domain.com intitle:index.of "sql"
+
+# SERVER & CONFIG FILES
+site:domain.com ext:env
+site:domain.com ext:config
+site:domain.com ext:xml "config"
+site:domain.com ext:json "config"
+site:domain.com ext:conf
+site:domain.com ext:yaml
+site:domain.com "configuration file"
+site:domain.com intitle:index.of "server.conf"
+site:domain.com intitle:index.of "web.config"
+site:domain.com intitle:index.of "application.yml"
+site:domain.com intitle:index.of "nginx.conf"
+site:domain.com intitle:index.of "httpd.conf"
+
+# EXPOSED KEYS & TOKENS
+site:domain.com ext:env "API_KEY"
+site:domain.com ext:json "access_token"
+site:domain.com ext:txt "private_key"
+site:domain.com ext:txt "secret_key"
+site:domain.com ext:json "auth_token"
+site:domain.com inurl:"api_key="
+site:domain.com "private_key.pem"
+site:domain.com "BEGIN RSA PRIVATE KEY"
+site:domain.com "END RSA PRIVATE KEY"
